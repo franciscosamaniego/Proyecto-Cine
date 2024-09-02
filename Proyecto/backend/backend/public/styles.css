@@ -1,0 +1,97 @@
+body{
+  place-content: center; 
+  background: #6E2897;
+}
+
+
+.carru{
+color: white;
+font-size: 20px;
+}
+
+#series_desp{
+  width: 300px;
+}
+#pelis-desp{
+  width: 300px;
+  float: right;
+}
+
+#text-center{
+text-align: center;
+}
+.titulos{
+  color: white;
+  font-family: Comic Sans MS;
+}
+
+.git {
+  color: #c70039;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+
+.itemcard {
+  background: #6e2759;
+  color : white;
+  font-size: 16px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 3px solid;
+  border-color: #900c3f;
+}
+
+.form {
+  text-align: center;
+  color: whitesmoke;
+  text-shadow: 1px 1px 2px black;
+}
+
+.input {
+  background: transparent;
+}
+
+.calif {
+  width : 5%;
+}
+
+.image {
+  height: 250px;
+  width: 150px;
+  float: right;
+}
+
+.img{
+  height: 200px;
+  width: 150px;
+  float: right;
+}
+
+.cabra {
+  width: 10%;
+}
+
+.centre {
+  text-align: center;
+}
+
+.right {
+  float: right;
+}
+
+
+#centered{
+  top: 50%;
+  bottom: 50%;
+  padding-bottom: auto;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+.Top{
+  display: flex;
+}
