@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema Devoto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Reseñas de Películas y Series, Cinema Devoto</h1>
+    </header>
+    <main>
+        <section id="review-form">
+            <h2>Deja tu reseña</h2>
+            <form id="form">
+                <label for="title">Título:</label>
+                <input type="text" id="title" name="title" required>
+                <label for="rating">Calificación (1-5):</label>
+                <input type="number" id="rating" name="rating" min="1" max="5" required>
+                <label for="review">Reseña:</label>
+                <textarea id="review" name="review" required></textarea>
+                <button type="submit">Enviar Reseña</button>
+            </form>
+        </section>
+        <section id="reviews">
+            <h2>Reseñas Recientes</h2>
+            <div id="reviews-list">
+            </div>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
