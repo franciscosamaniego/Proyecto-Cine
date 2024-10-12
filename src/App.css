@@ -1,0 +1,138 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: rgb(141, 111, 11);
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin: 0.5rem 0;
+}
+
+form input, form textarea {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+form button {
+  background: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #555;
+}
+
+#reviews-list {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.review {
+  border-bottom: 1px solid #eee;
+  padding: 0.5rem 0;
+}
+
+.review:last-child {
+  border-bottom: none;
+}
+
+.review h3 {
+  margin: 0 0 0.5rem 0;
+}
+
+.review p {
+  margin: 0;
+}
+
+/* Estilos generales para botones */
+button {
+  background-color: #007BFF; /* Color de fondo */
+  color: white; /* Color del texto */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  padding: 10px 15px; /* Espaciado interno */
+  cursor: pointer; /* Cambia el cursor al pasar el mouse */
+  margin-left: 10px; /* Espaciado a la izquierda */
+  transition: background-color 0.3s; /* Transición suave para el color de fondo */
+}
+
+/* Efecto hover para botones */
+button:hover {
+  background-color: #0056b3; /* Color de fondo al pasar el mouse */
+}
+
+/* Espaciado entre los elementos de la lista */
+ul {
+  list-style-type: none; /* Sin viñetas */
+  padding: 0; /* Sin padding */
+}
+
+li {
+  margin-bottom: 10px; /* Espacio entre los elementos de la lista */
+}
+
